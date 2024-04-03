@@ -86,9 +86,9 @@ public class DungeonTimer {
 
         JsonArray f7 = getBasicSplits(EnumChatFormatting.RED + "Boss Entry", "Maxor");
         f7.add(createSplit(EnumChatFormatting.AQUA + "Maxor", "\\[BOSS\\] Storm: Pathetic Maxor, just like expected\\."));
-        f7.add(createSplit(EnumChatFormatting.RED + "Storm", "\\[BOSS\\] Storm: At least my son died by your hands\\."));
+        f7.add(createSplit(EnumChatFormatting.RED + "Storm", "\\[BOSS\\] Goldor: Who dares trespass into my domain\\?"));
         f7.add(createSplit(EnumChatFormatting.GOLD + "Terminals", "The Core entrance is opening!"));
-        f7.add(createSplit(EnumChatFormatting.GOLD + "Goldor", "\\[BOSS\\] Goldor: \\.\\.\\.\\."));
+        f7.add(createSplit(EnumChatFormatting.GOLD + "Goldor", "\\[BOSS\\] Necron: You went further than any human before, congratulations\\."));
         f7.add(createSplit(EnumChatFormatting.DARK_RED + "Necron", "\\[BOSS\\] Necron: All this, for nothing\\.\\.\\."));
         timer.add("F7", f7);
         JsonArray m7 = Utils.deepCopy(f7);
